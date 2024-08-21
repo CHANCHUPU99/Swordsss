@@ -81,8 +81,8 @@ Shader "Unlit/USB_SDF_fruit."
                     float3 ray_direction = normalize(i.hitPos - ray_origin);
 
                     float t = sphereCasting(ray_origin, ray_direction);
-                    fixed4 planeCol = fixed4(0, 0, 0, 0); // Declaración y inicialización correcta
-                    fixed4 circleCol = fixed4(0, 0, 0, 0); // Declaración y inicialización correcta
+                    fixed4 planeCol = fixed4(0, 0, 0, 0); 
+                    fixed4 circleCol = fixed4(0, 0, 0, 0);
 
                     if (t < MAX_DISTANCE)
                     {

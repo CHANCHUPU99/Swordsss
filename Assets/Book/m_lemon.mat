@@ -38,7 +38,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _CircleRad: 0.5
-    - _Edge: -0.04
+    - _Edge: 0.08
     m_Colors:
     - _CircleCol: {r: 0.8588236, g: 0.6784314, b: 0.24705884, a: 1}
   m_BuildTextureStacks: []
