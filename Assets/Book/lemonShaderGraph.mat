@@ -46,8 +46,12 @@ Material:
     - _Edge: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _distanceOrigin: 0
     m_Colors:
-    - _circleColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Raypos: {r: 0, g: 0, b: 0, a: 0}
+    - _circleColor: {r: 1, g: 0, b: 0, a: 0}
+    - _ray_direction: {r: 0, g: 0, b: 0, a: 0}
+    - _ray_origin: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7284049122711828173
