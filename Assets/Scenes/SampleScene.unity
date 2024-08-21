@@ -387,35 +387,13 @@ GameObject:
   - component: {fileID: 437765170}
   - component: {fileID: 437765169}
   - component: {fileID: 437765168}
-  - component: {fileID: 437765167}
   m_Layer: 0
   m_Name: Lemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!135 &437765167
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437765166}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_IsActive: 1
 --- !u!23 &437765168
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -478,7 +456,7 @@ Transform:
   m_GameObject: {fileID: 437765166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.00755, y: -0.49909058, z: -12.248188}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.961, y: 3.961, z: 3.961}
   m_ConstrainProportionsScale: 0
   m_Children: []
