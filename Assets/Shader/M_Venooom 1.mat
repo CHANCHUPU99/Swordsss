@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6096467724783020528
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Venooom 1
+  m_Shader: {fileID: -6465566751694194690, guid: 411afbb36a32c554189f459c8e57d034, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_0fbfafa68f554402987e389ca567c683_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9e9b79ea8209f464cae0be48f97f225f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_bf2c9399a7db41f1a000a375717bd9e4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ce802048c378e03458a5449c708884aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FloatColor: 58.1
+    - _Fresss: 71.24
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SufSpeed: 1.3
+    - _SurNoiseScale: 30.09
+    - _SurfNoiseStre: -56.77
+    - _bubble: -0.39
+    m_Colors:
+    - _Color: {r: 18.147112, g: 0, b: 42.722507, a: 0}
+    - _baseCol: {r: 16.7998, g: 5.696334, b: 31.999996, a: 0}
+    - _flow: {r: 1.92, g: -49.87, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
