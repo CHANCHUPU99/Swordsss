@@ -8637,7 +8637,7 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.0384709
+      scalar: 1.0768682
       minScalar: 0.7853982
       maxCurve:
         serializedVersion: 2
@@ -59911,6 +59911,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9d7aa4f93b5ae984183af8700f4a3a29, type: 3}
       propertyPath: m_Name
       value: m_sword9correct
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9d7aa4f93b5ae984183af8700f4a3a29, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
